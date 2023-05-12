@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css?family=Itim');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+/* &display=swap */
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+body {
+  /* background: rgb(2,0,36);
+  background: linear-gradient(140deg, rgba(2,0,36,1) 0%, rgba(115,31,210,1) 100%); */
+
+  /* background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%); */
+
+  background: rgb(168, 216, 255) url("https://th.bing.com/th/id/OIP.Y8dn8ZGVz8BhKjg8bDJMFgHaEK?pid=ImgDet&w=1920&h=1080&rs=1") no-repeat fixed center ;
+  background-size: cover;
+  /* font-family: Itim; */
+}
+
+.title {
+  font-family: Itim;
+  font-weight: bold;
+  color: rgb(var(--foreground-rgb));
+}
+
+.glass {
+width: 75%;
+position: relative;
+margin: 150px auto;
+padding: 20px;
+/* From https://css.glass */
+background: rgba(81, 178, 202, 0.1);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.6px);
+-webkit-backdrop-filter: blur(3.6px);
+border: 1px solid rgba(81, 178, 202, 0.24);
+}
